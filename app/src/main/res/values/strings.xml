@@ -23,7 +23,7 @@
     <string name="btn_scqr">Generando código Qr</string>
     <string name="btn_dyca">Prender camara</string>
     <string name="input">por favor ingrese algo para imprimir</string>
-    <string name="choose_printcoding"></string>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="big5">BIG5</string>
     <string name="thai">Thai</string>
     <string name="kor">Korean</string>

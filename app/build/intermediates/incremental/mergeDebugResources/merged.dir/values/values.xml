@@ -17,7 +17,7 @@
     <string name="button_scan">Escaneando Dispositivos</string>
     <string name="camer">No pictures</string>
     <string name="choose_paper_width">Paper width:</string>
-    <string name="choose_printcoding"/>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="chosecommand">Please select instruction</string>
     <string name="connect">Search for and connect a Bluetooth printer</string>
     <string name="contentdescription"/>
