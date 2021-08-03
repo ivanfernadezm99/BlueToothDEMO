@@ -1,0 +1,85 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.gitignore
+* .idea/libraries/
+* .idea/libraries/dexedLibs.xml
+* .idea/libraries/dexedLibs2.xml
+* .idea/libraries/lib.xml
+* .idea/libraries/lib2.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* BlueToothDEMO.iml
+* Thumbs.db
+* ic_launcher-web.png
+* lib/
+* lib/btsdk.jar
+* lib/zixng.jar
+* out/
+* out/production/
+* out/production/BlueToothDEMO/
+* out/production/BlueToothDEMO/zj/
+* out/production/BlueToothDEMO/zj/com/
+* out/production/BlueToothDEMO/zj/com/cn/
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/BluetoothService$AcceptThread.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/BluetoothService$ConnectThread.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/BluetoothService$ConnectedThread.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/BluetoothService.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/BuildConfig.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/DeviceListActivity$1.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/DeviceListActivity$2.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/DeviceListActivity$3.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/DeviceListActivity.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/Main_Activity$1.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/Main_Activity$2.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/Main_Activity$3.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/Main_Activity$4.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/Main_Activity.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/R$attr.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/R$drawable.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/R$id.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/R$layout.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/R$string.class
+* out/production/BlueToothDEMO/zj/com/cn/bluetooth/sdk/R.class
+* out/production/BlueToothDEMO/zj/com/command/
+* out/production/BlueToothDEMO/zj/com/command/sdk/
+* out/production/BlueToothDEMO/zj/com/command/sdk/Command.class
+* out/production/BlueToothDEMO/zj/com/command/sdk/PrintPicture.class
+* out/production/BlueToothDEMO/zj/com/command/sdk/PrinterCommand.class
+* pos.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
