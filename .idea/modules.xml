@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlueToothDEMO.iml" filepath="$PROJECT_DIR$/.idea/modules/BlueToothDEMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BlueToothDEMO.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BlueToothDEMO.app.iml" />
+    </modules>
+  </component>
+</project>

@@ -12,12 +12,12 @@
         "source": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/src/main/res/drawable/app_icon.png"
     },
     {
-        "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/layout_main.xml.flat",
-        "source": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/src/main/res/layout/main.xml"
-    },
-    {
         "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/layout_device_name.xml.flat",
         "source": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/layout_main.xml.flat",
+        "source": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/src/main/res/layout/main.xml"
     },
     {
         "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher.png.flat",
@@ -34,6 +34,10 @@
     {
         "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/drawable_gsistemas.jpeg.flat",
+        "source": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/src/main/res/drawable/gsistemas.jpeg"
     },
     {
         "merged": "/home/ivan/AndroidStudioProjects/BlueToothDEMO/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.png.flat",
