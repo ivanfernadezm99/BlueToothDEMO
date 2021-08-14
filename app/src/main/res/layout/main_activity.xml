@@ -9,8 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_scan" />
-    
-    <EditText
+
+    <!--<EditText
         android:id="@+id/edit_text_out"
         android:layout_width="match_parent"
         android:layout_height="135dp"
@@ -18,7 +18,7 @@
         android:text="@string/txt_content"
         android:textSize="18sp" 
         android:hint="@string/contentdescription">
-    </EditText>
+    </EditText>-->
    
     <LinearLayout
         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
             android:text="@string/width1"
             android:layout_weight="0.3"/>
 
-        <RadioButton
+        <!--<RadioButton
             android:id="@+id/width_80mm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,82 +49,81 @@
             android:id="@+id/checkBoxHEX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/printhex" />
+            android:text="@string/printhex" />-->
 
     </LinearLayout>
-    
+
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="72dp"
             android:layout_height="wrap_content"
-            android:text="@string/choose_printcoding">
-        </TextView>
-        
+            android:text="@string/choose_printcoding"></TextView>
+
         <RadioGroup
-        android:id="@+id/radioGroupPaperSize"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/gbk12"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/gbk12"
-            android:layout_weight="0.3"
-            android:layout_marginTop="-8dip"/>
-
-        <RadioButton
-            android:id="@+id/big5"
+            android:id="@+id/radioGroupPaperSize"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/big5" 
-            android:layout_marginTop="-8dip"/>
+            android:orientation="horizontal">
 
-         <RadioButton
-            android:id="@+id/thai"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/thai" 
-            android:layout_marginTop="-8dip"/>
-         
-         <RadioButton
-            android:id="@+id/kor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/kor" 
-            android:layout_marginTop="-8dip"/>
+            <RadioButton
+                android:id="@+id/gbk12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dip"
+                android:layout_weight="0.3"
+                android:checked="true"
+                android:text="@string/gbk12" />
 
-         </RadioGroup>
+            <!---<RadioButton
+                android:id="@+id/big5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/big5"
+                android:layout_marginTop="-8dip"/>-->
+
+            <!---<RadioButton
+                   android:id="@+id/thai"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/thai"
+                   android:layout_marginTop="-8dip"/>-->
+
+            <!---<RadioButton
+              android:id="@+id/kor"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/kor"
+              android:layout_marginTop="-8dip"/>-->
+
+        </RadioGroup>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        
-        <Button
-            android:id="@+id/Send_Button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/btnSend"
-            android:layout_weight="1.0">
-        </Button>
-        <Button
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center">
+
+       <!---<Button
+           android:id="@+id/Send_Button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="@string/btnSend"
+           android:layout_weight="1.0">
+       </Button>-->
+        <!---<Button
             android:id="@+id/btn_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_test"
             android:layout_weight="1.0"
             android:gravity="center">
-        </Button>
+        </Button>-->
     </LinearLayout>
     
      <LinearLayout
@@ -132,14 +131,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
-        <Button
+         <!--<Button
             android:id="@+id/btn_printpicture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Imprimir Gráficos"
             android:layout_weight="1.0">
-        </Button>
+        </Button>-->
         
         <Button
             android:id="@+id/btn_prtbmp"
@@ -156,28 +155,28 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
-        
-        <Button
+
+        <!--<Button
             android:id="@+id/btn_prtcommand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/chosecommand"
             android:layout_weight="1.0"
             android:gravity="center">
-        </Button>
-        
-        <Button
+        </Button>-->
+
+        <!--<Button
             android:id="@+id/btn_prttable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Imprimir Formularios"
             android:layout_weight="1.0"
             android:gravity="center">
-        </Button>
+        </Button>-->
        
     </LinearLayout>
-    
-    <LinearLayout
+
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -201,14 +200,14 @@
             android:gravity="center">
         </Button>
        
-    </LinearLayout>
+    </LinearLayout>-->
    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:orientation="vertical" >
-          
-    <LinearLayout
+
+       <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -232,7 +231,7 @@
             android:gravity="center">
         </Button>
        
-    </LinearLayout>
+    </LinearLayout>-->
       </ScrollView> 
     <Button 
         android:id="@+id/btn_close"
@@ -244,8 +243,9 @@
         android:id="@+id/imageViewPictureUSB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:maxHeight="1920dp"
+        android:contentDescription="@string/contentdescription"
         android:maxWidth="1080dp"
-        android:contentDescription="@string/contentdescription" />
+        android:maxHeight="1920dp"
+        android:src="@drawable/gsistemas" />
     
 </LinearLayout>

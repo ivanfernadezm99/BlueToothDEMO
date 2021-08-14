@@ -6,7 +6,7 @@
 	<!--main_activity-->
 	<string name="connect">Search for and connect a Bluetooth printer</string>
 	<string name="txt_content">&quot;&quot;</string>
-	<string name="choose_paper_width">Paper width:</string>
+	<string name="choose_paper_width">Tamaño del papel:</string>
     <string name="width1">58mm</string>
     <string name="width2">80mm</string>
     <string name="printhex">HEX</string>
