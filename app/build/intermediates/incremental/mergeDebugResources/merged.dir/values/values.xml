@@ -16,10 +16,10 @@
     <string name="btn_test">Imprimir Texto</string>
     <string name="button_scan">Escaneando Dispositivos</string>
     <string name="camer">No pictures</string>
-    <string name="choose_paper_width">Paper width:</string>
+    <string name="choose_paper_width">Tamaño del papel:</string>
     <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="chosecommand">Please select instruction</string>
-    <string name="connect">Search for and connect a Bluetooth printer</string>
+    <string name="connect">Conectar Impresora</string>
     <string name="contentdescription"/>
     <string name="empty">Input is empty</string>
     <string name="empty1">Input is empty, in the text box to enter the content to be converted …</string>

@@ -1,5 +1,6 @@
 int drawable app_icon 0x7f010000
-int drawable ic_launcher 0x7f010001
+int drawable gsistemas 0x7f010001
+int drawable ic_launcher 0x7f010002
 int id Send_Button 0x7f020000
 int id big5 0x7f020001
 int id btn_close 0x7f020002
