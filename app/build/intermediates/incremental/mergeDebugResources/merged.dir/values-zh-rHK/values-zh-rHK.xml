@@ -17,10 +17,10 @@
     <string name="button_scan">掃描設備</string>
     <string name="camer">沒有拍攝任何圖片</string>
     <string name="choose_paper_width">紙張寬度:</string>
-    <string name="choose_printcoding"/>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="chosecommand">指令測試</string>
     <string name="connect">搜索並連接藍牙打印機</string>
-    <string name="contentdescription"/>
+    <string name="contentdescription">hola</string>
     <string name="empty">輸入為空</string>
     <string name="empty1">輸入為空，請在文本框輸入需轉換的內容..</string>
     <string name="gbk12">簡體</string>

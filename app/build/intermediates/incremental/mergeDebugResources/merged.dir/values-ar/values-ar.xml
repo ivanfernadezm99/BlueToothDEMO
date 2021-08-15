@@ -17,9 +17,10 @@
     <string name="button_scan">جهاز المسح الضوئي</string>
     <string name="camer">لا صور</string>
     <string name="choose_paper_width">عرض ورقة:</string>
+    <string name="choose_printcoding">الرجاء إدخال الطباعة!</string>
     <string name="chosecommand">تعليمات الاختبار</string>
     <string name="connect">البحث عن وتوصيل طابعة بلوتوث</string>
-    <string name="contentdescription"/>
+    <string name="contentdescription">hola</string>
     <string name="empty">إدخال فارغ</string>
     <string name="empty1">إدخال فارغ، في مربع النص لإدخال المحتوى المراد تحويله ..</string>
     <string name="gbk12">Simplified</string>

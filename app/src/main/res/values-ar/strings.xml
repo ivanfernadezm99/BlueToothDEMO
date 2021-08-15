@@ -16,7 +16,7 @@
     <string name="printpicture">الطباعة الرسومية</string>
     <string name="chosecommand">تعليمات الاختبار</string>
     <string name="btnClose">قريب</string>
-    <string name="contentdescription"></string>
+    <string name="contentdescription">hola</string>
     <string name="btn_prttable">طباعة شراء علامة واحدة</string>
     <string name="Smallticketprinting">علامة طباعة طلبين اثنين</string>
     <string name="btn_prtcode">طباعة الرمز الشريطي ثنائي الأبعاد</string>
@@ -51,6 +51,7 @@
     <string name="strLang">cn</string>
     <string name="camer">لا صور</string>
     <string name="msg_error">أخطاء الإدخال، يرجى مراجعة!</string>
+    <string name="choose_printcoding">الرجاء إدخال الطباعة!</string>
 
-    
+
 </resources>

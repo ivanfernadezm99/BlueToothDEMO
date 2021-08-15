@@ -16,14 +16,14 @@
     <string name="printpicture">圖形方式打印</string>
     <string name="chosecommand">指令測試</string>
     <string name="btnClose">關閉</string>
-    <string name="contentdescription"></string>
+    <string name="contentdescription">hola</string>
     <string name="btn_prttable">打印自定義表格</string>
     <string name="Smallticketprinting">打印自定義小票</string>
     <string name="btn_prtcode">打印一二維條碼</string>
     <string name="btn_scqr">生成QR碼並打印</string>
     <string name="btn_dyca">打開相機</string>
     <string name="input">請輸入打印內容!</string>
-    <string name="choose_printcoding"></string>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="big5">BIG5</string>
     <string name="thai">泰語</string>
     <string name="kor">韓語</string>

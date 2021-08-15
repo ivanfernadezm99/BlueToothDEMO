@@ -17,10 +17,10 @@
     <string name="button_scan">เครื่องสแกน</string>
     <string name="camer">ไม่มีภาพ</string>
     <string name="choose_paper_width">ความกว้างของกระดาษ:</string>
-    <string name="choose_printcoding"/>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="chosecommand">คำแนะนำการทดสอบ</string>
     <string name="connect">ค้นหาและเชื่อมต่อเครื่องพิมพ์บลูทู ธ</string>
-    <string name="contentdescription"/>
+    <string name="contentdescription">hola</string>
     <string name="empty">การป้อนข้อมูลเป็นที่ว่างเปล่า</string>
     <string name="empty1">ท่านเป็นที่ว่างเปล่าในกล่องข้อความเพื่อป้อนเนื้อหาที่จะแปลง..</string>
     <string name="gbk12">แบบย่อ</string>

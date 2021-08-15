@@ -16,14 +16,14 @@
     <string name="printpicture">그래픽 인쇄</string>
     <string name="chosecommand">테스트 명령</string>
     <string name="btnClose">가까운</string>
-    <string name="contentdescription"></string>
+    <string name="contentdescription">hola</string>
     <string name="btn_prttable">인쇄 사용자 지정 양식</string>
     <string name="Smallticketprinting">작은 티켓 인쇄 사용자 정의</string>
     <string name="btn_prtcode">이차원 바코드를 인쇄</string>
     <string name="btn_scqr">생성 및 QR 코드를 인쇄</string>
     <string name="btn_dyca">카메라를 켭니다</string>
     <string name="input">인쇄를 입력하세요!</string>
-    <string name="choose_printcoding"></string>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="big5">전통적인</string>
     <string name="thai">타이어</string>
     <string name="kor">한국의</string>

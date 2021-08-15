@@ -16,14 +16,14 @@
     <string name="printpicture">พิมพ์กราฟิก</string>
     <string name="chosecommand">คำแนะนำการทดสอบ</string>
     <string name="btnClose">ใกล้</string>
-    <string name="contentdescription"></string>
+    <string name="contentdescription">hola</string>
     <string name="btn_prttable">พิมพ์แบบฟอร์มที่กำหนดเอง</string>
     <string name="Smallticketprinting">ที่กำหนดเองการพิมพ์ตั๋วขนาดเล็ก</string>
     <string name="btn_prtcode">พิมพ์บาร์โค้ดสองมิติ</string>
     <string name="btn_scqr">สร้างและพิมพ์รหัส QR</string>
     <string name="btn_dyca">เปิดสวิตช์กล้อง</string>
     <string name="input">กรุณาใส่พิมพ์!</string>
-    <string name="choose_printcoding"></string>
+    <string name="choose_printcoding">Elija la codificación de la impresora.</string>
     <string name="big5">แบบดั้งเดิม</string>
     <string name="thai">ไทย</string>
     <string name="kor">เกาหลี</string>

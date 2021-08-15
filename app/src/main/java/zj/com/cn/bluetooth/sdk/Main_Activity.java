@@ -255,28 +255,28 @@ public class Main_Activity extends Activity implements OnClickListener{
 /*****************************************************************************************************/	
 	private void KeyListenerInit() {
 		
-//		editText = (EditText) findViewById(R.id.edit_text_out);
+	editText = (EditText) findViewById(R.id.edit_text_out);
 
-//		sendButton = (Button) findViewById(R.id.Send_Button);
+		sendButton = (Button) findViewById(R.id.Send_Button);
 		sendButton.setOnClickListener(this);
 		
-//		testButton = (Button) findViewById(R.id.btn_test);
+		testButton = (Button) findViewById(R.id.btn_test);
 		testButton.setOnClickListener(this);
 
-//		printbmpButton = (Button) findViewById(R.id.btn_printpicture);
+		printbmpButton = (Button) findViewById(R.id.btn_printpicture);
 		printbmpButton.setOnClickListener(this);
 
 		btnScanButton = (Button)findViewById(R.id.button_scan);
 		btnScanButton.setOnClickListener(this);
 		
-//		hexBox = (CheckBox)findViewById(R.id.checkBoxHEX);
+		hexBox = (CheckBox)findViewById(R.id.checkBoxHEX);
 		hexBox.setOnClickListener(this);
 		
 		width_58mm = (RadioButton)findViewById(R.id.width_58mm);
 		width_58mm.setOnClickListener(this);
 		
-//		width_80 = (RadioButton)findViewById(R.id.width_80mm);
-//		width_80.setOnClickListener(this);
+		width_80 = (RadioButton)findViewById(R.id.width_80mm);
+		width_80.setOnClickListener(this);
 		
 		imageViewPicture = (ImageView) findViewById(R.id.imageViewPictureUSB);
 		imageViewPicture.setOnClickListener(this);
@@ -287,32 +287,32 @@ public class Main_Activity extends Activity implements OnClickListener{
 		btn_BMP = (Button)findViewById(R.id.btn_prtbmp);
 		btn_BMP.setOnClickListener(this);
 		
-//		btn_ChoseCommand = (Button)findViewById(R.id.btn_prtcommand);
-//		btn_ChoseCommand.setOnClickListener(this);
+		btn_ChoseCommand = (Button)findViewById(R.id.btn_prtcommand);
+		btn_ChoseCommand.setOnClickListener(this);
 		
-//		btn_prtsma = (Button)findViewById(R.id.btn_prtsma);
-//		btn_prtsma.setOnClickListener(this);
+		btn_prtsma = (Button)findViewById(R.id.btn_prtsma);
+		btn_prtsma.setOnClickListener(this);
 		
-//		btn_prttableButton = (Button)findViewById(R.id.btn_prttable);
-//		btn_prttableButton.setOnClickListener(this);
+		btn_prttableButton = (Button)findViewById(R.id.btn_prttable);
+		btn_prttableButton.setOnClickListener(this);
 		
-//		btn_prtcodeButton = (Button)findViewById(R.id.btn_prtbarcode);
-//		btn_prtcodeButton.setOnClickListener(this);
+		btn_prtcodeButton = (Button)findViewById(R.id.btn_prtbarcode);
+		btn_prtcodeButton.setOnClickListener(this);
 		
-//		btn_camer = (Button)findViewById(R.id.btn_dyca);
-//		btn_camer.setOnClickListener(this);
+		btn_camer = (Button)findViewById(R.id.btn_dyca);
+		btn_camer.setOnClickListener(this);
 		
-//		btn_scqrcode = (Button)findViewById(R.id.btn_scqr);
-//		btn_scqrcode.setOnClickListener(this);
+		btn_scqrcode = (Button)findViewById(R.id.btn_scqr);
+		btn_scqrcode.setOnClickListener(this);
 		
 		Simplified = (RadioButton)findViewById(R.id.gbk12);
 		Simplified.setOnClickListener(this);
-//		big5 = (RadioButton)findViewById(R.id.big5);
-//		big5.setOnClickListener(this);
-//		thai = (RadioButton)findViewById(R.id.thai);
-//		thai.setOnClickListener(this);
-//		Korean = (RadioButton)findViewById(R.id.kor);
-	//	Korean.setOnClickListener(this);
+		big5 = (RadioButton)findViewById(R.id.big5);
+		big5.setOnClickListener(this);
+		thai = (RadioButton)findViewById(R.id.thai);
+		thai.setOnClickListener(this);
+		Korean = (RadioButton)findViewById(R.id.kor);
+		Korean.setOnClickListener(this);
 		
 		Bitmap bm = getImageFromAssetsFile("demo.bmp");
 		if (null != bm) {
@@ -378,60 +378,60 @@ public class Main_Activity extends Activity implements OnClickListener{
 			btnScanButton.setText(getText(R.string.connect));
 			break;
 		}
-//		case R.id.btn_test:{
-//			BluetoothPrintTest();;
-//			break;
-//		}
-//		case R.id.Send_Button:{
-//			if (hexBox.isChecked()) {
-//				String str = editText.getText().toString().trim();//去掉头尾空白
-//				if(str.length() > 0){
-//					str = Other.RemoveChar(str, ' ').toString();
-//					if (str.length() <= 0)
-//						return;
-//					if ((str.length() % 2) != 0) {
-//						Toast.makeText(getApplicationContext(), getString(R.string.msg_state),
-//								Toast.LENGTH_SHORT).show();
-//						return;
-//					}
-//					byte[] buf = Other.HexStringToBytes(str);
-//					SendDataByte(buf);
-//				}else{
-//					Toast.makeText(Main_Activity.this, getText(R.string.empty), Toast.LENGTH_SHORT).show();
-//				}
-//			} else {
-//				String msg = editText.getText().toString();
-//				if(msg.length()>0){
-//					if(thai.isChecked()){
-//						SendDataByte(PrinterCommand.POS_Print_Text(msg, THAI, 255, 0, 0, 0));
-//						SendDataByte(Command.LF);
-//					}else if(big5.isChecked()){
-//						SendDataByte(PrinterCommand.POS_Print_Text(msg, BIG5, 0, 0, 0, 0));
-//						SendDataByte(Command.LF);
-//					}else if(Korean.isChecked()){
-//						SendDataByte(PrinterCommand.POS_Print_Text(msg, KOREAN, 0, 0, 0, 0));
-//						SendDataByte(Command.LF);
-//					}else if(Simplified.isChecked()){
-//						SendDataByte(PrinterCommand.POS_Print_Text(msg, CHINESE, 0, 0, 0, 0));
-//						SendDataByte(Command.LF);
-//					}
-//				}else{
-//					Toast.makeText(Main_Activity.this, getText(R.string.empty), Toast.LENGTH_SHORT).show();
-//				}
-//			}
-//			break;
-//		}
+		case R.id.btn_test:{
+			BluetoothPrintTest();;
+			break;
+		}
+		case R.id.Send_Button:{
+			if (hexBox.isChecked()) {
+				String str = editText.getText().toString().trim();//去掉头尾空白
+				if(str.length() > 0){
+					str = Other.RemoveChar(str, ' ').toString();
+					if (str.length() <= 0)
+						return;
+					if ((str.length() % 2) != 0) {
+						Toast.makeText(getApplicationContext(), getString(R.string.msg_state),
+								Toast.LENGTH_SHORT).show();
+						return;
+					}
+					byte[] buf = Other.HexStringToBytes(str);
+					SendDataByte(buf);
+				}else{
+					Toast.makeText(Main_Activity.this, getText(R.string.empty), Toast.LENGTH_SHORT).show();
+				}
+			} else {
+				String msg = editText.getText().toString();
+				if(msg.length()>0){
+					if(thai.isChecked()){
+						SendDataByte(PrinterCommand.POS_Print_Text(msg, THAI, 255, 0, 0, 0));
+						SendDataByte(Command.LF);
+					}else if(big5.isChecked()){
+						SendDataByte(PrinterCommand.POS_Print_Text(msg, BIG5, 0, 0, 0, 0));
+						SendDataByte(Command.LF);
+					}else if(Korean.isChecked()){
+						SendDataByte(PrinterCommand.POS_Print_Text(msg, KOREAN, 0, 0, 0, 0));
+						SendDataByte(Command.LF);
+					}else if(Simplified.isChecked()){
+						SendDataByte(PrinterCommand.POS_Print_Text(msg, CHINESE, 0, 0, 0, 0));
+						SendDataByte(Command.LF);
+					}
+				}else{
+					Toast.makeText(Main_Activity.this, getText(R.string.empty), Toast.LENGTH_SHORT).show();
+				}
+			}
+			break;
+		}
 		case R.id.width_58mm:
-//		case R.id.width_80mm:{
-//			is58mm = v == width_58mm;
-//			width_58mm.setChecked(is58mm);
-//			width_80.setChecked(!is58mm);
-//			break;
-//		}
-//		case R.id.btn_printpicture:{
-//			GraphicalPrint();
-//			break;
-//			}
+		case R.id.width_80mm:{
+			is58mm = v == width_58mm;
+			width_58mm.setChecked(is58mm);
+			width_80.setChecked(!is58mm);
+			break;
+		}
+		case R.id.btn_printpicture:{
+			GraphicalPrint();
+			break;
+			}
 		case R.id.imageViewPictureUSB:{
 			Intent loadpicture = new Intent(
 					Intent.ACTION_PICK,
@@ -443,7 +443,7 @@ public class Main_Activity extends Activity implements OnClickListener{
 			Print_BMP();
 			break;
 		}
-		/*case R.id.btn_prtcommand:{
+		case R.id.btn_prtcommand:{
 			CommandTest();
 			break;
 		}
@@ -470,7 +470,7 @@ public class Main_Activity extends Activity implements OnClickListener{
 		case R.id.btn_dyca:{
 			dispatchTakePictureIntent(REQUEST_CAMER);
 			break;
-		}*/
+		}
 		default:
 			break;
 		}
